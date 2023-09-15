@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/dashMenu"
+    android:title="Company"
+    android:icon="@drawable/baseline_noise_aware_24">
+</item>
+</menu>
