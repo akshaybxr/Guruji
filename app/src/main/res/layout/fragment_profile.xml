@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".WalletActivity">
+    tools:context=".ProfileFragment">
+
 
     <com.google.android.material.appbar.MaterialToolbar
         android:layout_width="match_parent"
@@ -293,69 +294,6 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-               android:layout_marginHorizontal="20dp"
-                app:strokeColor="#11696F"
-                android:layout_marginTop="10dp"
-                app:cardCornerRadius="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:textColor="#11696F"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:text="ADD Money"
-                    android:padding="10dp" />
-
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
-                android:layout_marginHorizontal="20dp"
-                app:strokeColor="#11696F"
-                android:layout_marginTop="10dp"
-                app:cardCornerRadius="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:textColor="#11696F"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:text="WITHDRAWAL"
-                    android:padding="10dp" />
-
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
-                android:layout_marginHorizontal="20dp"
-                app:strokeColor="#11696F"
-                android:layout_marginTop="10dp"
-                app:cardCornerRadius="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:textColor="#11696F"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:text="TRANSACTIONS"
-                    android:padding="10dp" />
-
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
                 app:cardCornerRadius="10dp">
@@ -366,7 +304,7 @@
                     android:background="#11696F"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Change Password"
+                    android:text="Account Security"
                     android:textColor="@color/white"
                     android:textSize="18dp"
                     android:textStyle="bold" />
@@ -453,88 +391,7 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="#1C1B17"
-                android:paddingBottom="20dp"
-                android:gravity="center"
-                android:orientation="horizontal">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:padding="10dp"
-                        android:src="@drawable/baseline_home_24" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Home"
-                        android:textColor="@color/white"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:padding="10dp"
-                        android:src="@drawable/baseline_emoji_events_24" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="win"
-                        android:textColor="@color/white"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:padding="10dp"
-                        android:src="@drawable/baseline_account_box_24" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="profile"
-                        android:textColor="@color/white"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

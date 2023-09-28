@@ -708,7 +708,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:text="<"
+                                    android:text="&gt;"
                                     android:textSize="14dp"
                                     android:textStyle="bold" />
 
@@ -880,7 +880,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:text=">"
+                                    android:text="&gt;"
                                     android:textSize="14dp"
                                     android:textStyle="bold" />
 
@@ -896,14 +896,16 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:background="#1C1B17"
+                android:paddingBottom="20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -928,6 +930,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <ImageView
@@ -950,6 +953,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="vertical">
 
